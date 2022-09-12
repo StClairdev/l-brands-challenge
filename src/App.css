@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Offside&display=swap');
+
+.App {
+  background: linear-gradient(to bottom right, #ff00ff 0%, #ff0066 100%);
+  min-height: 100vh;
+}
+
+.addUserWrapper {
+  padding-top:15px;
+  background-color: #f7f0f7;
+  position: relative;
+  top: 80px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px #a29ea2;
+  display: flex;
+  justify-content: center;
+  width: min(90%, 30rem);
+  margin: auto;
+}
+
+.addUserForm {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 60px;
+  min-width: 920px;
+}
+
+.addUserFormHeader {
+  text-align: center;
+  font-family: 'Offside', sans-serif, cursive;
+  color: #3e0546;
+}
+
+#submitButton {
+  height: 45px;
+  margin-inline: 380px;
+  border-width: 1.5px;
+  border-radius: 35px;
+  font-weight: bold;
+  color: #3e0546;
+  background: linear-gradient(to bottom right, #F012BE 0%, #b734eb 150%);
+  letter-spacing: .1rem;
+}
+
+.formErrors {
+
+}
+
+#usernameError {
+
+}
+
+#emailError {
+
+}
+
+#formSubmitError {
+  display: none;
+  color: #ff0000;
+}
+
+#form-submit-error.hasError {
+  display: block;
+}
+
+.hasError {
+  border:1px solid #ff0000;
+}
