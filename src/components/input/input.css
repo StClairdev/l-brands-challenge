@@ -1,0 +1,41 @@
+.input {
+    border-radius: 5px;
+    border-width: 1.5px;
+    border-color: #70097f;
+    margin-left: 8px;
+    margin-bottom: 20px;
+    height: 32px;
+    padding-left: 8px;
+    font-size: 15px;
+    letter-spacing: .1rem;
+  }
+
+  input:focus {
+    border-color: #70097f;
+    border-width: 1.5px;
+  }
+
+  .errorInputBorder {
+    border-color: red;
+    margin-bottom: 0px;
+  }
+
+  .errorInputBorder:focus {
+    border-width: 1.5px;
+    border-color: red;
+  }
+
+.label {
+  font-size: large;
+  padding-bottom: 15px;
+  min-width: 84px;
+  display: inline-block;
+  text-align: right;
+  letter-spacing: .1rem;
+  color: #3e0546;
+}
+
+.form-errors {
+    color: red;
+    padding-bottom: 15px;
+}
